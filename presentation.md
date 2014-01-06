@@ -19,7 +19,7 @@ RESTful Webservices in .net
 
  - Introduced by Roy Fielding in 2000
  - Strongly influenced by CRUD
- 
+
 !
 
  - How does it differ from RPC style services?
@@ -31,14 +31,22 @@ RESTful Webservices in .net
 
 !
 
+Also a bit simpler than WS-*
+
+!
+
+<img src="standards.png" style="margin-left: -300;width: 155%;"></img>
+
+!
+
  - What is a resource?
 
 !
 
  - Simon's REST maturity model
    - JSON over http
-   - Supporting verbs
-   - Supporting navigation
+   - Supports verbs
+   - Supports navigation through hyperlinks
 
 !
 
@@ -48,6 +56,24 @@ RESTful Webservices in .net
 
  - Usually JSON but it isn't required, CSV and even XML are permissible
  - The resulting format of the operation is typically described in the Accept headers
+
+!
+
+## REST on .net
+
+There are a whole bunch of ways to do REST in .net
+
+!
+
+## REST on .net
+
+- WebAPI
+- OData (REST+)
+- Service Stack
+
+!
+
+## Let's go write some code
 
 !
 
